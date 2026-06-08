@@ -9,3 +9,9 @@
 
         using :
             "Install-WindowsFeature -name AD-Domaine-Services -IncludeManagementTools"
+
+    3 - Added Workstation to the Domain
+
+            "Add-Computer -Domainname FT.com -credential ft\administrator -force -restart"
+
+    
